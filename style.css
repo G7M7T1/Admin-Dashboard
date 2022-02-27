@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply mx-3 text-sm text-gray-100
+    }
+
+    .nav-icon-size {
+        @apply w-5 h-5
+    }
+
+    .nav-flex {
+        @apply flex m-5 mt-2
+    }
+
+    .nav-title {
+        @apply uppercase text-gray-200 p-5 text-xl font-bold
+    }
+}
